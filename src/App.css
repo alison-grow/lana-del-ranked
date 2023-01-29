@@ -1,0 +1,37 @@
+@font-face {
+  font-family: rainbow;
+  src:url('../font/Rainbow.ttf');
+}
+
+body {
+  background-image: url('https://preview.redd.it/8k8ecxx4d2t21.jpg?width=640&crop=smart&auto=webp&s=20e473d71f7a05d2a951252a3e9c3eb2a9c3d3d7');
+  background-repeat: repeat;
+  background-attachment:fixed;
+  margin: 0;
+}
+
+.header-container {
+  background-color: black;
+  height: 100px;
+  text-align: center;
+}
+
+.header-title {
+  color: white;
+  font-family: 'rainbow', cursive;
+  font-size: 70px;
+  padding-top: 20px;
+}
+
+.image-div {
+  margin: 50px auto 30px auto;
+  background-color: darkred;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+.img {
+  height: 300px;
+  margin-top: 50px;
+}
