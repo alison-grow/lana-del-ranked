@@ -1,4 +1,6 @@
 import React from "react";
+import Button from '@mui/material/Button';
+import { Link } from "@mui/material";
 
 export default function Homepage() {
     return (
@@ -10,9 +12,9 @@ export default function Homepage() {
                 <button class="button">
                     All Songs
                 </button>
-                <button className="button">
+                <Button className="button" component={Link} to="/Albums">
                     Albums
-                </button>
+                </Button>
                 <button className="button">
                     Features
                 </button>
