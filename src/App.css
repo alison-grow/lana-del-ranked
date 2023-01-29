@@ -35,3 +35,36 @@ body {
   height: 300px;
   margin-top: 50px;
 }
+
+.buttons-div {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.button {
+  background-color: darkred;
+  color: white;
+  font-family: 'rainbow', cursive;
+  letter-spacing: 1px;
+  width: 150px;
+  height: 60px;
+  font-size: 30px;
+  border: 2px solid white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* ALBUMS PAGE */
+
+.section-header {
+  background-color: darkred;
+  height: 60px;
+  width: 25%;
+  text-align: center;
+  margin: 20px auto 20px auto;
+  color: white;
+  font-family: 'rainbow', cursive;
+  font-size: 50px;
+  padding-top: 25px;
+}
