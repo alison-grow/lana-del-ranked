@@ -1,3 +1,42 @@
+@font-face {
+    font-family: rainbow;
+    src:url('/font/Rainbow.ttf');
+}
+
 .cards {
+    margin: 0px auto 30px auto;
+    width: 500px;
+    height: 800px;
+    border: 2px solid white;
+}
+
+.card-img {
+    height: 300px;
+    width: 300px;
+    margin: 30px auto 0px auto;
+    border: 2px solid white;
+}
+
+.typography-name {
+    color: white;
+    text-align: center;
+}
+
+.comments {
+    text-align: center;
+    color: white;
+}
+
+.un-container {
+    margin: 30px auto 50px auto;
     background-color: darkred;
+    border: 4px solid white;
+}
+
+.tablecell-1 {
+    color: white;
+}
+
+.table-cell-2 {
+    color: white;
 }

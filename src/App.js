@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import Homepage from './Components/Homepage';
 import Albums from './Components/Albums';
+import Unreleased from './Components/Unreleased';
 
 function App() {
   return (
@@ -22,6 +23,13 @@ function App() {
             <>
               <Header />
               <Albums />
+            </>
+          }
+          />
+          <Route path="Unreleased" element={
+            <>
+              <Header />
+              <Unreleased />
             </>
           }
           />

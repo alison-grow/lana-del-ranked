@@ -11,6 +11,9 @@ export default function Header() {
                 <Link to="/Albums">
                     ALBUMS
                 </Link>
+                <Link to="/Unreleased">
+                    UNRELEASED
+                </Link>
             </div>
         </div>
     )
